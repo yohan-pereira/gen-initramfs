@@ -81,8 +81,6 @@ rescue_if_needed
 echo "This script just mounts and boots the rootfs and maybe fscks it, nothing else! Screw you!"
 
 # Mount the root filesystem.
-# 8ba7f391-11cd-45bb-82f0-b65e9bf7533a -> root
-
 ROOTFS=$(get_root)
 
 check_filesystem $ROOTFS
